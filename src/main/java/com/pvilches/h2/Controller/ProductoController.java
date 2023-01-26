@@ -22,7 +22,7 @@ public class ProductoController {
     private ServiceProduco serviceProduco;
 
     @GetMapping("listar")
-    public Iterable<Productos> listProductos(){return serviceProduco.listarProductos(); }
+    public Iterable<Productos> listProductos(){return serviceProduco.getProductos(); }
 }
 
 
